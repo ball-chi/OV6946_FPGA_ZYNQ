@@ -10,6 +10,7 @@ src文件建议创个文件夹统一放置
 
 
 ![image](https://github.com/user-attachments/assets/a46530b6-6530-449f-b6ac-2771f4dce124)
+
 烧录后在HDMI的屏幕显示的实际效果图，可以进入狭窄的管道清晰看得到里面的细节
 
 
