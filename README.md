@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3e0266ba-3c9b-4cfb-bbd9-e69a710dd1b8)运行环境：Vivado 2020.2
+运行环境：Vivado 2020.2
           Vitis 2020.2
 
 使用芯片：Zynq（XC7Z020CLG400）
