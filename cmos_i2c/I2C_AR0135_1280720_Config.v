@@ -1,18 +1,3 @@
-/*-------------------------------------------------------------------------
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo.www.cnblogs.com/crazybingo
-(C) COPYRIGHT 2012 CrazyBingo. ALL RIGHTS RESERVED
-Filename			:		I2C_AR0144_1280720_Config.v
-Author				:		CrazyBingo
-Date				:		2019-08-03
-Version				:		1.0
-Description			:		I2C Configure Data of AR0135.
-Modification History	:
-Date			By			Version			Change Description
-===========================================================================
-19/08/03		CrazyBingo	1.0				Original
---------------------------------------------------------------------------*/
-
 `timescale 1ns/1ns
 module	I2C_AR0135_1280720_Config   //1280*720@60 with AutO/Manual Exposure
 (
