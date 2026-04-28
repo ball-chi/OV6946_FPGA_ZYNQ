@@ -1,33 +1,4 @@
-/*-----------------------------------------------------------------------
-								 \\\|///
-							   \\  - -  //
-								(  @ @  )
-+-----------------------------oOOo-(_)-oOOo-----------------------------+
-CONFIDENTIAL IN CONFIDENCE
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo (Thereturnofbingo).
-In the event of publication, the following notice is applicable:
-Copyright (C) 2013-20xx CrazyBingo Corporation
-The entire notice above must be reproduced on all authorized copies.
-Author				:		CrazyBingo
-Technology blogs 	: 		http://blog.chinaaet.com/crazybingo
-Email Address 		: 		thereturnofbingo@gmail.com
-Filename			:		i2c_timing_ctrl.v
-Data				:		2013-04-13
-Description			:		The testbench of I2C Ctrl timing.
-Modification History	:
-Data			By			Version			Change Description
-=========================================================================
-13/04/13		CrazyBingo	1.0				Original
-13/04/14		CrazyBingo	1.1				add i2c_wdata for avoid bit width warming
-14/05/13		CrazyBingo	2.0				Change to 16Bit Data module
--------------------------------------------------------------------------
-|                                     Oooo								|
-+-------------------------------oooO--(   )-----------------------------+
-                               (   )   ) /
-                                \ (   (_/
-                                 \_)
------------------------------------------------------------------------*/
+
 `timescale 1ns/1ns
 module	i2c_timing_ctrl_16bit
 #(
