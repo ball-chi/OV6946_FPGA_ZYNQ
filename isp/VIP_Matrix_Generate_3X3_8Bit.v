@@ -1,35 +1,3 @@
-/*-----------------------------------------------------------------------
-                                 \\\|///
-                               \\  - -  //
-                                (  @ @  )
-+-----------------------------oOOo-(_)-oOOo-----------------------------+
-CONFIDENTIAL IN CONFIDENCE
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo (Thereturnofbingo).
-In the event of publication, the following notice is applicable:
-Copyright (C) 2011-20xx CrazyBingo Corporation
-The entire notice above must be reproduced on all authorized copies.
-Author              :       CrazyBingo
-Technology blogs    :       www.crazyfpga.com
-Email Address       :       crazyfpga@vip.qq.com
-Filename            :       VIP_Matrix_Generate_3X3_8Bit.v
-Date                :       2014-03-19
-Description         :       Generate 8Bit 3X3 Matrix for Video Image Processor.
-                            Give up the 1th and 2th row edge data caculate for simple process
-                            Give up the 1th and 2th point of 1 line for simple process
-Modification History    :
-Date            By          Version         Change Description
-=========================================================================
-13/05/26        CrazyBingo  1.0             Original
-14/03/16        CrazyBingo  2.0             Modification
-22/07/04        CrazyBird   3.0             Modification
--------------------------------------------------------------------------
-|                                     Oooo                              |
-+-------------------------------oooO--(   )-----------------------------+
-                               (   )   ) /
-                                \ (   (_/
-                                 \_)
------------------------------------------------------------------------*/ 
 
 `timescale 1ns/1ns
 module VIP_Matrix_Generate_3X3_8Bit
