@@ -1,8 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Create Date:    11:05:25 07/07/2023 
-// Module Name:    AXI4Lite2RegRW 
-//////////////////////////////////////////////////////////////////////////////////
 module AXI4Lite2RegRW #(
 	parameter 	ADDR_WIDTH 	= 16		//	64KB memory region by default. Data is always 32 bits. Address is aligned to 4 bytes. 
 )(
