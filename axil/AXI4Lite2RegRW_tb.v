@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   11:22:06 07/07/2023
-// Design Name:   AXI4Lite2RegRW
-// Module Name:   D:/SVN_Path/DevKitProjects/Z7/Dev/02_DDR_AR0135_LCD_Test/src/axil/AXI4Lite2RegRW_tb.v
-// Project Name:  DDR_AR0135_LCD_Test
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: AXI4Lite2RegRW
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 module AXI4Lite2RegRW_tb;
 
 	// Inputs
