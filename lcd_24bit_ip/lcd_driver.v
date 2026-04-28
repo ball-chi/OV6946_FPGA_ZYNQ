@@ -1,36 +1,3 @@
-/*-----------------------------------------------------------------------
-								 \\\|///
-							   \\  - -  //
-								(  @ @  )
-+-----------------------------oOOo-(_)-oOOo-----------------------------+
-CONFIDENTIAL IN CONFIDENCE
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo (Thereturnofbingo).
-In the event of publication, the following notice is applicable:
-Copyright (C) 2013-20xx CrazyBingo Corporation
-The entire notice above must be reproduced on all authorized copies.
-Author				:		CrazyBingo
-Technology blogs 	: 		www.crazyfpga.com
-Email Address 		: 		crazyfpga@vip.qq.com
-Filename			:		lcd_driver.v
-Date				:		2012-02-18
-Description			:		LCD/VGA driver.
-Modification History	:
-Date			By			Version			Change Description
-=========================================================================
-12/02/18		CrazyBingo	1.0				Original
-12/03/19		CrazyBingo	1.1				Modification
-12/03/21		CrazyBingo	1.2				Modification
-12/05/13		CrazyBingo	1.3				Modification
-13/11/07		CrazyBingo	2.1				Modification
-17/04/02		CrazyBingo	3.0				Modify for 12bit width logic
--------------------------------------------------------------------------
-|                                     Oooo							|
-+------------------------------oooO--(   )-----------------------------+
-                              (   )   ) /
-                               \ (   (_/
-                                \_)
-----------------------------------------------------------------------*/   
 
 `timescale 1ns/1ps
 
@@ -139,7 +106,7 @@ localparam	H_AHEAD = 	12'd2;
 	lcd_request	<=	(hcnt >= H_SYNC + H_BACK - H_AHEAD + 760 && hcnt < H_SYNC + H_BACK  - H_AHEAD + 400 + 760) &&
 						 (vcnt >= V_SYNC + V_BACK + 340 && vcnt < V_SYNC + V_BACK  + 400 + 340) 
 						 ? 1'b1 : 1'b0;
-//显示区域只有400*400？ 然后760+400+760=1920 340+400+340=1080
+//脧脭脢戮脟酶脫貌脰禄脫脨400*400拢驴 脠禄潞贸760+400+760=1920 340+400+340=1080
                          
 // lcd xpos & ypos
 	lcd_xpos	<= 	lcd_request ? (hcnt - (H_SYNC + H_BACK - H_AHEAD)) : 11'd0;
