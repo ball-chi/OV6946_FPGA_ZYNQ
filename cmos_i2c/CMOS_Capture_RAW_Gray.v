@@ -1,26 +1,3 @@
-/*-------------------------------------------------------------------------
-CONFIDENTIAL IN CONFIDENCE
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo (Thereturnofbingo).
-In the event of publication, the following notice is applicable:
-Copyright (C) 2011-201x CrazyBingo Corporation
-The entire notice above must be reproduced on all authorized copies.
-Author				:		CrazyBingo
-Technology blogs 	: 		www.crazyfpga.com
-Eamil Address 		: 		crazyfpga@vip.qq.com
-Filename			:		CMOS_Capture_RAW_Gray.v
-Date				:		2013-04-10
-Version				:		1.0
-Description			:		Capture cmos data from cmos senser of RAW or Gray Format
-Modification History	:
-Date			By			Version		Change Description
-===========================================================================
-13/04/10		CrazyBingo	1.0			Original
-13/04/14		CrazyBingo	1.1			Complete
-13/05/26		CrazyBingo	1.2			Modification
-13/11/08		CrazyBingo	2.0			Modification	
-14/03/16		CrazyBingo	2.0			Modification
---------------------------------------------------------------------------*/
 `timescale 1ns/1ns
 module CMOS_Capture_RAW_Gray
 #(
