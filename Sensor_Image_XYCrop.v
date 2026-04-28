@@ -1,32 +1,4 @@
-/*-----------------------------------------------------------------------
-								 \\\|///
-							   \\  - -  //
-								(  @ @  )
-+-----------------------------oOOo-(_)-oOOo-----------------------------+
-CONFIDENTIAL IN CONFIDENCE
-This confidential and proprietary software may be only used as authorized
-by a licensing agreement from CrazyBingo (Thereturnofbingo).
-In the event of publication, the following notice is applicable:
-Copyright (C) 2012-20xx CrazyBingo Corporation
-The entire notice above must be reproduced on all authorized copies.
-Author				:		CrazyBingo
-Technology blogs 	: 		www.crazyfpga.com
-Email Address 		: 		crazyfpga@vip.qq.com
-Filename			:		Sensor_Image_Crop.v
-Date				:		2017-06-19
-Description			:		Zoom X & Y for Sensor image output.
-Modification History	:
-Date			By			Version			Change Description
-=========================================================================
-17/06/19		CrazyBingo	1.0				Original
-17/08/19		CrazyBingo	1.1				Modify for X & Y zoom
--------------------------------------------------------------------------
-|                                     Oooo								|
-+------------------------------oooO--(   )-----------------------------+
-                              (   )   ) /
-                               \ (   (_/
-                                \_)
-----------------------------------------------------------------------*/ 
+
 
 `timescale 1ns / 1ns
 module Sensor_Image_XYCrop
